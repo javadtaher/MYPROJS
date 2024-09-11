@@ -4,6 +4,7 @@ import re
 class gmailWriting_Validation():
     def __init__(self, gmail):
         self.__gmail = gmail
+        self.GL_Evaliuation()
 
     def __str__(self):
         if self.GL_Evaliuation():
