@@ -4,6 +4,7 @@ class Id_Validation:
     def __init__(self, id):
         self.__id = id
         self.__eval = True
+        self.Id_Evaliuation()
 
     def __str__(self):
         try:
