@@ -32,14 +32,14 @@ class gmailWriting_Validation():
         else:
             return False
 
-while True:
-    checkID = input("enter your 'Gmail' to check or 'done' to exit : ")
-    match checkID:
-        case 'done':
-            system('cls')
-            break
+# while True:
+#     checkID = input("enter your 'Gmail' to check or 'done' to exit : ")
+#     match checkID:
+#         case 'done':
+#             system('cls')
+#             break
 
-        case _:
-            print(gmailWriting_Validation(checkID))
-            input("press any key ..........")
-            system('cls')
+#         case _:
+#             print(gmailWriting_Validation(checkID))
+#             input("press any key ..........")
+#             system('cls')
